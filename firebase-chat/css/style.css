@@ -28,3 +28,29 @@ body {
     background: red;
     color: white;
 }
+
+.chat-screen {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.header,
+.input {
+    background: black;
+    color: white;
+
+}
+
+/* .header, 
+.input {
+    flex-grow: 1;
+} */
+
+.messages {
+    flex-grow: 1;
+    background: lightskyblue;
+}
