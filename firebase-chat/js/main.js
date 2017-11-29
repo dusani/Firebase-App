@@ -84,7 +84,7 @@
                 <div>${format.date(new Date(msg.date)).time}</div>
               </div>
             </div>
-         </div>`
+          </div>`
         );
       }
       scroll();
