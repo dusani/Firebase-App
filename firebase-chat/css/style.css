@@ -10,19 +10,20 @@ body {
   justify-content: space-around;
   align-items: center;
   width: 100%;
-  height: 100%; }
+  height: 100%;
+  background: linear-gradient(-45deg, red 50%, yellow 50%); }
 
 .logo img {
   width: 250px; }
 
 .label {
-  border: 2px solid red;
+  border: 2px solid yellow;
   border-radius: 25px;
   padding: 15px 70px; }
 
 .label:hover {
-  background: red;
-  color: white; }
+  background: yellow;
+  color: black; }
 
 .chat-screen {
   display: flex;
