@@ -22,6 +22,7 @@ body {
   padding: 15px 70px; }
 
 .label:hover {
+  border: 2px solid black;
   background: yellow;
   color: black; }
 
