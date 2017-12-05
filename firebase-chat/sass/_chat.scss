@@ -33,7 +33,7 @@
     /* display: flex; */
     flex-direction: column;
     /* flex-grow: 1; */
-    background: lightskyblue;
+    background: #1492CC;
     width: 100%;
     /* padding: 15px; */
     overflow-y: auto;
@@ -74,7 +74,7 @@
 
 .name {
     font-size: 15px;
-    color: #bcb7b7;
+    color: black;
 }
 
 .msg {
@@ -92,7 +92,7 @@
     display: flex;
     justify-content: space-between;
     font-size: 12px;
-    color: #bcb7b7;
+    color: black;
 }
 
 
@@ -128,6 +128,7 @@
     width: 200px;
     height: auto;
     background-color: #fff;
+    border-radius: 20px;
 }
 
 .border {
@@ -141,6 +142,13 @@
 }
 
 
+.talk-bubble.tri-right.right-top {
+    background: yellow;
+}
+
+.talk-bubble.tri-right.left-top {
+    background: red;
+}
 /* Right triangle placed top left flush. */
 
 .tri-right.border.left-top:before {
@@ -167,7 +175,7 @@
     top: 0px;
     bottom: auto;
     border: 22px solid;
-    border-color: #fff transparent transparent transparent;
+    border-color: red transparent transparent transparent;
 }
 
 
@@ -364,7 +372,7 @@
     top: 0px;
     bottom: auto;
     border: 20px solid;
-    border-color: #fff transparent transparent transparent;
+    border-color: yellow transparent transparent transparent;
 }
 
 

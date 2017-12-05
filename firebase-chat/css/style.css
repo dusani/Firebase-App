@@ -57,7 +57,7 @@ body {
   /* display: flex; */
   flex-direction: column;
   /* flex-grow: 1; */
-  background: lightskyblue;
+  background: #1492CC;
   width: 100%;
   /* padding: 15px; */
   overflow-y: auto; }
@@ -92,7 +92,7 @@ body {
 
 .name {
   font-size: 15px;
-  color: #bcb7b7; }
+  color: black; }
 
 .msg {
   word-wrap: break-word; }
@@ -107,7 +107,7 @@ body {
   display: flex;
   justify-content: space-between;
   font-size: 12px;
-  color: #bcb7b7; }
+  color: black; }
 
 /* Scroll Bar */
 .cool-scroll-bar-17::-webkit-scrollbar-track {
@@ -132,7 +132,8 @@ body {
   position: relative;
   width: 200px;
   height: auto;
-  background-color: #fff; }
+  background-color: #fff;
+  border-radius: 20px; }
 
 .border {
   border: 8px solid #666; }
@@ -141,6 +142,12 @@ body {
   border-radius: 30px;
   -webkit-border-radius: 30px;
   -moz-border-radius: 30px; }
+
+.talk-bubble.tri-right.right-top {
+  background: yellow; }
+
+.talk-bubble.tri-right.left-top {
+  background: red; }
 
 /* Right triangle placed top left flush. */
 .tri-right.border.left-top:before {
@@ -166,7 +173,7 @@ body {
   top: 0px;
   bottom: auto;
   border: 22px solid;
-  border-color: #fff transparent transparent transparent; }
+  border-color: red transparent transparent transparent; }
 
 /* Right triangle, left side slightly down */
 .tri-right.border.left-in:before {
@@ -337,7 +344,7 @@ body {
   top: 0px;
   bottom: auto;
   border: 20px solid;
-  border-color: #fff transparent transparent transparent; }
+  border-color: yellow transparent transparent transparent; }
 
 /* talk bubble contents */
 .talktext {
